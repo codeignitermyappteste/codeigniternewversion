@@ -22,4 +22,9 @@ class Home extends BaseController
     {
         return "Novo desenvolvimento";
     }
+
+    public function teste2(): void
+    {
+        echo 'teste2';
+    }
 }
