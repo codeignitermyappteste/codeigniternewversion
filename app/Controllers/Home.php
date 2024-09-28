@@ -17,4 +17,9 @@ class Home extends BaseController
             echo 'OK';
         }
     }
+
+    public function teste(): string
+    {
+        return "Novo desenvolvimento";
+    }
 }
